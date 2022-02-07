@@ -1,6 +1,12 @@
 # hack2022-04-vae
 Challenge 4: Variational Autoencoder for single cell image feature extraction
 
+The two image datasets for this challenge are as follows:
+
+syn26850670 - a minimal example set for method development and benchmarking
+syn26850728 - training dataset (syn26850670) label (ground truth) for scoring
+syn26850727 - a large-scale test image set for scoring
+
 We provide a small python module for clustering and scoring for the trainings dataset. The results from the test dataset will be scored via the same scoring function. 
 The required libraries for the functions are:
 - scikit-learn
